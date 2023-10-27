@@ -1,0 +1,11 @@
+public class FavoriteSongs {
+    public static void main(String[] args) {
+    
+        System.out.println("My Favorite Songs: \n");
+        
+        System.out.println("When I Was Your Man - by Bruno Mars");
+        System.out.println("Paraluman - by Adie");
+        System.out.println("Reminder - by The Weeknd");
+        System.out.println("SICKO MODE - by Travis Scott");
+    } 
+}
