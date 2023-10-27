@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+
+class DecissionMakingActivity{
+  
+  public static void main(String args []){
+    Scanner sc = new Scanner(System.in);
+    
+    System.out.println("Route to Moalboal\n");
+    
+    System.out.println("Ready to going Route 1 Mingla (Yes = 1 or No = 0) ");
+    int isRoute1 = sc.nextInt();
+    
+    System.out.println("Ready to going Route 2 Sanfernando (Yes = 1 or No = 0) ");
+    int isRoute2 = sc.nextInt();
+    
+    System.out.println("If route A obstucted (Yes = 1 or No = 0) ");
+    int isRouteAObstructed = sc.nextInt();
+
+    if(isRoute1 ==1)
+    if(isRoute2 ==1)
+    if(isRouteAObstructed ==1)
+    System.out.println("Proceed to default route ");
+    else{
+    System.out.println("Going to Route 4.1 Barili");
+    System.out.println("Going to Route 4.2 Dumanjug");
+    System.out.println("Going to Route 4.3 Alcantara");
+    System.out.println("The End you are now in MoalBoal ❤ ");
+    }
+  }
+}
